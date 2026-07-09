@@ -1,8 +1,0 @@
-*.xcodeproj/
-*xcode*/
-*xcode*
-build/
-.DS_Store
-.ipynb_checkpoints
-Python/
-ghidra*/
