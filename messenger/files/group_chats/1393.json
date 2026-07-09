@@ -1,0 +1,14 @@
+{
+    "group name": "owner_group",
+    "owner ID": 1,
+    "admins ID": [
+        2
+    ],
+    "members ID": [
+        1,
+        2,
+        3
+    ],
+    "group ID": 2,
+    "messages": []
+}

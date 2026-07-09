@@ -1,0 +1,59 @@
+send_personal_message -u admin1 -m Wasap
+register -l asdf -p gafa -u owasdfafner
+register -l admin1 -p admin1 -u admin1
+log_in -l admin1 -p admin1
+add_friend -u owner
+show_friends
+send_personal_message -u owner -m Hello! Let's become friends!
+logout
+log_in -l owner -p owner
+send_personal_message -u admin1 -m Yup let's go bruh \n
+
+send_group_message -gn owner_group -m Hello
+create_group_chat -gn owner_group
+send_group_message -gn owner_group -m Hello
+group_manage -gn owner_group -u owner -f a -g GROUP_MEMBERS_ID
+group_manage -gn owner_group -u admin1 -f a -g GROUP_MEMBERS_ID
+logout
+log_in -l admin1 -p admin1
+send_group_message -gn owner_group -m HIiiii ^_^
+
+show_chats
+show_group_chats
+show_personal_chats
+logout
+
+log_in -l owner -p owner
+show_group_settings -gn client_group
+show_group_settings -gn owner_group
+change_group_name -gn owner_group -ngn new_owner_group
+show_group_settings -gn owner_group
+show_group_settings -gn new_owner_group
+change_group_name -gn owner_group -ngn bruuuuh
+change_group_name -gn new_owner_group -ngn owner_group
+group_manage -gn owner_group -u admin1 -f d -g GROUP_MEMBERS_ID
+group_manage -gn owner_group -u admin1 -f d -g GROUP_MEMBERS_ID
+group_manage -gn owner_group -u owner -f d -g GROUP_MEMBERS_ID
+group_manage -gn owner_group -u owner -f a -g GROUP_MEMBERS_ID
+create_group_chat -gn owner_group
+group_manage -gn owner_group -u admin1 -f a -g GROUP_MEMBERS_ID
+group_manage -gn owner_group -u admin1 -f a -g GROUP_ADMINS_ID
+group_manage -gn owner_group -u admin1 -f d -g GROUP_MEMBERS_ID
+group_manage -gn owner_group -u admin1 -f a -g GROUP_ADMINS_ID
+group_manage -gn owner_group -u admin1 -f a -g GROUP_MEMBERS_ID
+group_manage -gn owner_group -u admin1 -f a -g GROUP_ADMINS_ID
+
+logout
+register -l test -p test -u test
+whoami
+log_in -l admin1 -p admin1
+group_manage -gn owner_group -u test -f a -g GROUP_MEMBERS_ID
+group_manage -gn owner_group -u test -f a -g GROUP_ADMINS_ID
+group_manage -gn owner_group -u test -f d -g GROUP_MEMBERS_ID
+group_manage -gn owner_group -u test -f a -g GROUP_ADMINS_ID
+group_manage -gn owner_group -u test -f a -g GROUP_MEMBERS_ID
+group_manage -gn owner_group -u test -f a -g GROUP_ADMINS_ID
+
+log_in -l admin1 -p admin1
+print_personal_chat -u owner -f fl -n 10
+print_group_chat -gn owner_group -f fl -n 10

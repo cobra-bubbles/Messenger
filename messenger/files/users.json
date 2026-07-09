@@ -1,0 +1,71 @@
+{
+    "users": [
+        {
+            "login": "owner",
+            "hash": 17983601948884599130,
+            "password": "owner",
+            "user ID": 1,
+            "username": "owner",
+            "friends ID": [],
+            "personal chats (ID)": [
+                2
+            ],
+            "group chats (ID)": [
+                2
+            ],
+            "token": 69353
+        },
+        {
+            "login": "admin1",
+            "hash": 10918003092324977571,
+            "password": "admin1",
+            "user ID": 2,
+            "username": "admin1",
+            "friends ID": [
+                1
+            ],
+            "personal chats (ID)": [
+                1
+            ],
+            "group chats (ID)": [
+                2
+            ],
+            "token": 84476
+        },
+        {
+            "login": "test",
+            "hash": 7476371435045802663,
+            "password": "test",
+            "user ID": 3,
+            "username": "test",
+            "friends ID": [],
+            "personal chats (ID)": [],
+            "group chats (ID)": [
+                2
+            ],
+            "token": 0
+        },
+        {
+            "login": "nikita",
+            "hash": 5066986145621964577,
+            "password": "nikita",
+            "user ID": 4,
+            "username": "nikita",
+            "friends ID": [],
+            "personal chats (ID)": [],
+            "group chats (ID)": [],
+            "token": 40753
+        },
+        {
+            "login": "asdf",
+            "hash": 17686807545601094376,
+            "password": "gafa",
+            "user ID": 5,
+            "username": "owasdfafner",
+            "friends ID": [],
+            "personal chats (ID)": [],
+            "group chats (ID)": [],
+            "token": 0
+        }
+    ]
+}

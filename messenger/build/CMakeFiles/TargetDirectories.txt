@@ -1,0 +1,4 @@
+/Users/nikitasemin/Desktop/study/sys_prog/messenger/messenger/build/CMakeFiles/server.dir
+/Users/nikitasemin/Desktop/study/sys_prog/messenger/messenger/build/CMakeFiles/client.dir
+/Users/nikitasemin/Desktop/study/sys_prog/messenger/messenger/build/CMakeFiles/edit_cache.dir
+/Users/nikitasemin/Desktop/study/sys_prog/messenger/messenger/build/CMakeFiles/rebuild_cache.dir
